@@ -142,8 +142,13 @@
 <path  d="M22.183 29.806l7.165-6.187-7.165-1.758v7.945z"></path>
 </symbol>
 </defs>
-<symbol id="close" viewBox="0 0 32 32">
+<symbol><svg aria-hidden="true" style="position: absolute; width: 18px; height: 18px; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-close-black-18dp-2-1-1" viewBox="0 0 32 32">
 <path d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"></path>
+</symbol>
+</defs>
+</svg>
 </symbol>
 </svg>
 
