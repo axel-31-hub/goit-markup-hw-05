@@ -219,6 +219,7 @@ body {
   align-items: center;
   cursor: pointer;
   fill: #afb1b8;
+  transition: color 250ms var(--cubic--);
 }
 .iconos__list {
   display: flex;
@@ -699,7 +700,7 @@ body {
 /*  estilos portafolio  */
 
 .section__portafolio {
-  width: 1600px;
+  width: 1200px;
   background: var(--color--titulo--white);
   padding-top: 55px;
   padding-bottom: 80px;
@@ -742,6 +743,7 @@ body {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  transition: color 0.25ms var(--cubic--);
 }
 .button__main.button:active {
   background-color: var(--color--buttom--blue);
