@@ -264,6 +264,7 @@ body {
 .about__gallery {
   width: 1200px;
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   align-content: center;
   gap: 40px;
@@ -281,6 +282,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  z-index: -2;
 }
 
 .servicio-titulo {
@@ -292,6 +294,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 }
 .background1 {
   background-image: url(../imagen/computador2.jpg);
@@ -625,15 +628,18 @@ body {
 }
 
 .flex__button {
-  width: 200px;
+  width: 210px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 2px;
+
   border-radius: 4px;
   border: transparent;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: auto;
 }
 .flex__button:hover {
@@ -844,7 +850,6 @@ body {
 }
 
 .item:hover {
-  border: 1px solid #eee;
   background: #fff;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
