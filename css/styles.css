@@ -618,6 +618,15 @@ body {
   letter-spacing: 0.96px;
   border-radius: 1px;
   border: transparent;
+  width: 210px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin: auto;
 }
 .button__hero:hover {
   background: var(--colo--web--blue);
@@ -626,29 +635,10 @@ body {
 .button__hero:active {
   background-color: var(--color--web--blue);
 }
-
-.flex__button {
-  width: 210px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 2px;
-
-  border-radius: 4px;
-  border: transparent;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-.flex__button:hover {
-  background: var(--color--buttom--blue);
+.button__hero:focus {
+  background-color: var(--color--buttom--blue);
 }
 
-.flex__button:active {
-  background-color: var(--color--web--blue);
-}
 .backdrop {
   position: fixed;
   width: 100%;
@@ -707,8 +697,16 @@ body {
 }
 
 .text-menu:hover {
-  color: #2196f3;
+  color: var(--color--buttom--blue);
 }
+.text-menu:focus {
+  background: transparent;
+  color: var(--color--buttom--blue);
+}
+.text-menu:active {
+  color: var(--color--buttom--blue);
+}
+
 .box_icono {
   width: 270px;
   height: 120px;
@@ -768,9 +766,7 @@ body {
 .button__main .button__main__item:active {
   background: var(--color--buttom--blue);
 }
-/*.button__main:active {
-  background-color: var(--color--buttom--blue);
-}*/
+
 .button-active:active {
   background-color: var(--color--buttom--blue);
 }
@@ -791,7 +787,10 @@ body {
   background: var(--color--buttom--blue);
   cursor: pointer;
 }
-
+.button__main__item:focus {
+  background-color: var(--color--buttom--blue);
+  color: #fff;
+}
 .button__main .button__main__item:hover {
   color: var(--color--button__main--white);
 }
